@@ -1,5 +1,10 @@
 /* CSS Stylesheet for Utah Trails  */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .heroBG {
     background-image: url('../../../../hero-img.jpg');
     background-repeat: no-repeat;
@@ -10,6 +15,7 @@
 }
 .bg-danger {
     background: transparent !important;
+    /* background-color: #000 !important; */
 
 }
 
@@ -30,14 +36,11 @@
 }
 
 .text-left {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
 }
 
 .newsletter { margin-top: 3%;}
-.centerAlign {
-    margin-left:35%;
-}
 
 .jumbotron {
     margin-bottom: 0px !important;
