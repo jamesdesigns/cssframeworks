@@ -5,6 +5,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.bgColor {
+    background-color: #202020 !important;
+}
+
 .heroBG {
     background-image: url('../../../../hero-img.jpg');
     background-repeat: no-repeat;
@@ -21,7 +25,8 @@ body {
 
 .heroTxt {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 8rem;
+    font-size: 2rem;
+    padding: 2%;
     text-align: center;
     font-weight: bold;
     margin-top: -70px;
@@ -31,8 +36,87 @@ body {
 .card {
     margin-bottom: 3% !important;
 }
-.footer {
+/* .footer {
     color: #000;
+} */
+
+#footer {
+    background-color: #202020;
+    color: #ccc;
+}
+
+.row {
+    padding-top: 3% !important;
+}
+
+
+li.myfooter {
+    list-style-type: none !important;
+    border-bottom: 1px dotted white;
+    padding: 5px 0;
+    margin-left:-37px;
+}
+
+.footerTxt {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 0px;
+    font-size: 110%;
+}
+
+
+.linkBorder {
+    border-bottom: 1px solid dotted;
+    color: white;
+}
+.linkBorder:hover {
+    border-bottom: 1px solid dotted;
+    color: orange;
+}
+.footerTxt:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+    border: 0;
+    padding: 6px 8px;
+    width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+    background: orange;
+    border: 0;
+    width: 35%;
+    padding: 6px 3px;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+    background: #13a456;
+}
+
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #202020;
+}
+
+.highlight1 {
+    border-bottom: 2px solid orange;
+    padding: 2px;
+}
+
+#footer .credits {
+    text-align: center;
+    font-size: 13px;
+    color: #ddd;
 }
 
 .text-left {
