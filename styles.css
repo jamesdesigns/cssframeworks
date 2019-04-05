@@ -29,7 +29,16 @@
     color: #000;
 }
 
+.text-left {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .newsletter { margin-top: 3%;}
+.centerAlign {
+    margin-left:35%;
+}
+
 .jumbotron {
     margin-bottom: 0px !important;
 }
