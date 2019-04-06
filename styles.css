@@ -19,6 +19,12 @@ body {
     margin-right:-5px;
 }
 
+.socialIcon {
+    font-size: 180%;
+    padding-right: 10px;
+    margin-bottom: 5%;
+}
+
 .extraMargin {
     padding-right: 15px;
 }
