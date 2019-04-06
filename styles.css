@@ -1,6 +1,6 @@
 /* CSS Stylesheet for Utah Trails  */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Volkhov:700');
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,9 +13,20 @@ body {
     background-image: url(../../../../mapBg-1.jpg);
 }
 
+.icon {
+    padding-left:1%;
+    margin-top: -10px;
+    margin-right:-5px;
+}
+
+.extraMargin {
+    padding-right: 15px;
+}
+
 .logoTitle {
     font-size: 600%;
     font-weight: bold;
+    font-family: 'Volkhov', serif;
 }
 .description {
     font-size: 300%;
@@ -49,7 +60,7 @@ body {
 }
 
 .card {
-    margin-bottom: 3% !important;
+    margin-bottom: 10% !important;
 }
 /* .footer {
     color: #000;
@@ -130,6 +141,7 @@ body {
 .highlight1 {
     border-bottom: 2px solid orange;
     padding: 2px;
+    color: orange;
 }
 
 .highlight2 {
@@ -159,3 +171,5 @@ body {
     color: orange !important;
     border-bottom: 1px solid orange !important;
 }
+
+button:focus {outline:0;}
