@@ -9,6 +9,21 @@ body {
     background-color: #202020 !important;
 }
 
+.topHeaderBg {
+    background-image: url(../../../../mapBg-1.jpg);
+}
+
+.logoTitle {
+    font-size: 600%;
+    font-weight: bold;
+}
+.description {
+    font-size: 300%;
+    background-color: #202020;
+    color: rgba(255,255,255,.7);
+    padding-left: 1.5%;
+}
+
 .heroBG {
     background-image: url('../../../../hero-img.jpg');
     background-repeat: no-repeat;
@@ -50,11 +65,15 @@ body {
 }
 
 
-li.myfooter {
+.myfooter {
     list-style-type: none !important;
     border-bottom: 1px dotted white;
     padding: 5px 0;
     margin-left:-37px;
+}
+
+.myfooter:hover {
+    border-bottom: 1px dotted orange;
 }
 
 .footerTxt {
@@ -113,6 +132,12 @@ li.myfooter {
     padding: 2px;
 }
 
+.highlight2 {
+    border-bottom: 2px solid orange;
+    padding: 2px;
+}
+
+
 #footer .credits {
     text-align: center;
     font-size: 13px;
@@ -120,7 +145,7 @@ li.myfooter {
 }
 
 .text-left {
-    /* width: 80%; */
+    width: 80%;
     margin: 0 auto;
 }
 
